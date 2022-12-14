@@ -1,0 +1,6 @@
+spring.jpa.hibernate.ddl-auto: update
+spring.datasource.url: jdbc:mysql://192.168.0.28:3306/JADENDEMO?serverTimeZone=UTC&CharacterEncoding=UTF-8
+spring.datasource.username: jaden
+spring.datasource.password: jaden
+server:
+    port: 8080
