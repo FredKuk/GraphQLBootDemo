@@ -23,6 +23,7 @@ repositories {
 }
 
 dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'		//	FOR JDBC CONNECTION
 	implementation 'org.springframework.boot:spring-boot-starter-graphql'		//	GraphQL
 	implementation 'com.graphql-java:graphql-java-tools:5.2.4'					//	GraphQL
 	implementation 'org.springframework.boot:spring-boot-starter-web'
